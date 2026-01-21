@@ -1,6 +1,6 @@
 # Quick Deployment Guide
 
-## Deploy Classroom Command Center to Streamlit Community Cloud
+## Deploy West Valley Command Center to Streamlit Community Cloud
 
 ### Prerequisites
 - GitHub account
@@ -14,13 +14,13 @@
 cd /Users/mdickey/Documents/Scripts
 git init
 git add .
-git commit -m "Initial commit: Classroom Command Center"
+git commit -m "Initial commit: West Valley Command Center"
 ```
 
 #### 2. Create GitHub Repository
 
 1. Go to [github.com/new](https://github.com/new)
-2. Repository name: `classroom-command-center` (or your choice)
+2. Repository name: `west-valley-command-center` (or your choice)
 3. Set to **Private** (recommended for security)
 4. Do NOT initialize with README, .gitignore, or license (you already have these)
 5. Click "Create repository"
@@ -28,7 +28,7 @@ git commit -m "Initial commit: Classroom Command Center"
 #### 3. Push to GitHub
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/classroom-command-center.git
+git remote add origin https://github.com/YOUR_USERNAME/west-valley-command-center.git
 git branch -M main
 git push -u origin main
 ```
@@ -42,7 +42,7 @@ Replace `YOUR_USERNAME` with your actual GitHub username.
 3. Authorize Streamlit to access your repositories
 4. Click "New app" button
 5. Fill in the form:
-   - **Repository**: Select `YOUR_USERNAME/classroom-command-center`
+   - **Repository**: Select `YOUR_USERNAME/west-valley-command-center`
    - **Branch**: `main`
    - **Main file path**: `class_monitor.py`
    - **App URL**: Choose a custom URL (optional)
@@ -75,7 +75,7 @@ Jonathan = "4943~TvENvyHy..."
 
 Your app will be available at:
 ```
-https://YOUR_USERNAME-classroom-command-center.streamlit.app
+https://YOUR_USERNAME-west-valley-command-center.streamlit.app
 ```
 
 Or your custom URL if you chose one.

@@ -1,4 +1,4 @@
-# Classroom Command Center
+# West Valley Command Center
 
 A secure Streamlit application for monitoring student assignments from Canvas LMS. Built for Teacher Aides to track to-do lists for multiple students in real-time.
 
@@ -20,17 +20,17 @@ A secure Streamlit application for monitoring student assignments from Canvas LM
    cd /Users/mdickey/Documents/Scripts
    git init
    git add .
-   git commit -m "Initial commit: Classroom Command Center"
+   git commit -m "Initial commit: West Valley Command Center"
    ```
 
 2. **Create GitHub Repository**:
    - Go to [github.com](https://github.com) and create a new repository
-   - Name it something like `classroom-command-center`
+   - Name it something like `west-valley-command-center`
    - Do NOT initialize with README (you already have one)
 
 3. **Push to GitHub**:
    ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/classroom-command-center.git
+   git remote add origin https://github.com/YOUR_USERNAME/west-valley-command-center.git
    git branch -M main
    git push -u origin main
    ```
@@ -43,7 +43,7 @@ A secure Streamlit application for monitoring student assignments from Canvas LM
 
 2. **Deploy New App**:
    - Click "New app"
-   - Select your repository: `YOUR_USERNAME/classroom-command-center`
+   - Select your repository: `YOUR_USERNAME/west-valley-command-center`
    - Set Main file path: `class_monitor.py`
    - Click "Deploy"
 
@@ -56,7 +56,7 @@ A secure Streamlit application for monitoring student assignments from Canvas LM
 
 ### Step 3: Access Your App
 
-Your app will be live at: `https://YOUR_USERNAME-classroom-command-center.streamlit.app`
+Your app will be live at: `https://YOUR_USERNAME-west-valley-command-center.streamlit.app`
 
 Share this URL with your Teacher Aides!
 

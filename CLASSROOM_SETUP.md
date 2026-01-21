@@ -1,7 +1,7 @@
-# Classroom Command Center - Setup Guide
+# West Valley Command Center - Setup Guide
 
 ## Overview
-The Classroom Command Center is a secure Streamlit application that allows Teacher Aides to monitor student assignments from Canvas LMS.
+The West Valley Command Center is a secure Streamlit application that allows Teacher Aides to monitor student assignments from Canvas LMS.
 
 ## Security Features
 - **Password Protection**: The app requires a password before any data is displayed
@@ -104,8 +104,8 @@ The app monitors these 11 students:
    ```bash
    git init
    git add .
-   git commit -m "Initial commit: Classroom Command Center"
-   git remote add origin https://github.com/YOUR_USERNAME/classroom-command-center.git
+   git commit -m "Initial commit: West Valley Command Center"
+   git remote add origin https://github.com/YOUR_USERNAME/west-valley-command-center.git
    git branch -M main
    git push -u origin main
    ```
@@ -123,7 +123,7 @@ The app monitors these 11 students:
    - Paste and save
 
 4. **Share the URL**:
-   - Your app will be live at: `https://YOUR_USERNAME-classroom-command-center.streamlit.app`
+   - Your app will be live at: `https://YOUR_USERNAME-west-valley-command-center.streamlit.app`
    - Share with Teacher Aides!
 
 ### Important Notes for Deployment

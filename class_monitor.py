@@ -48,8 +48,8 @@ STUDENTS = [
 ]
 
 # --- MAIN APPLICATION ---
-st.set_page_config(page_title="Classroom Command Center", layout="wide")
-st.title("⚡ The Classroom Command Center")
+st.set_page_config(page_title="West Valley Command Center", layout="wide")
+st.title("⚡ West Valley Command Center")
 
 # --- DATE FILTERING LOGIC ---
 st.subheader("📅 Timeframe")
